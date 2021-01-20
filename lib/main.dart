@@ -11,21 +11,18 @@ class MyAPP extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Container(
-                width: 100.0,
-                color: Colors.red,
+          child: Column(
+            children: <Widget>[
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/myself.png'),
               ),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                color: Colors.yellow,
-              ),
-              Container(
-                width: 100.0,
-                color: Colors.blue,
+              Text(
+                'Guopeng Li',
+                style: TextStyle(
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
               ),
             ],
           ),
