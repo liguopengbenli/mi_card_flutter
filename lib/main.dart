@@ -18,11 +18,20 @@ class MyAPP extends StatelessWidget {
                 backgroundImage: AssetImage('images/myself.png'),
               ),
               Text(
-                'Guopeng Li',
+                'Guopeng LI',
                 style: TextStyle(
+                    fontFamily: 'Pacifico',
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,
                     color: Colors.white),
+              ),
+              Text(
+                'FLUTTER DEVELOPER',
+                style: TextStyle(
+                    fontFamily: 'SourceSansPro',
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
+                    letterSpacing: 2),
               ),
             ],
           ),
