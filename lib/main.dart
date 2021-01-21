@@ -33,52 +33,38 @@ class MyAPP extends StatelessWidget {
                     color: Colors.white,
                     letterSpacing: 2),
               ),
-              Container(
-                color: Colors.white,
-                padding: EdgeInsets.all(10.0),
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.phone,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '06 35 54 63 12',
+                    style: TextStyle(
                       color: Colors.teal,
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 20.0,
                     ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      '06 35 54 63 12',
-                      style: TextStyle(
-                        color: Colors.teal,
-                        fontFamily: 'SourceSansPro',
-                        fontSize: 20.0,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
-              Container(
-                color: Colors.white,
-                padding: EdgeInsets.all(10.0),
+              Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.email,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'liguopengbenli@gmail.com',
+                    style: TextStyle(
                       color: Colors.teal,
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 20.0,
                     ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      'liguopengbenli@gmail.com',
-                      style: TextStyle(
-                        color: Colors.teal,
-                        fontFamily: 'SourceSansPro',
-                        fontSize: 20.0,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               )
             ],
